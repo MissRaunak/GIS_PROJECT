@@ -1,5 +1,12 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "scripts": {
+    "json-server": "json-server --watch db.json"
   }
 }
