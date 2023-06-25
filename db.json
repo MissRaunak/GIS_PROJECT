@@ -1,0 +1,52 @@
+{
+  "gisinfo": [
+    {
+      "name": "Raunak Bandil",
+      "email": "bandilraunak@gmail.com",
+      "Address": "Near Pipal Wali Mata , Morena",
+      "mobile": "+917987889349",
+      "Password": "123",
+      "latitude": "26.4889128",
+      "longitude": "77.9879728",
+      "time": "17:43:0",
+      "date": "2023-6-25",
+      "id": 1
+    },
+    {
+      "name": "hello",
+      "email": "ok@gmail.com",
+      "Address": "Near Pipal Wali Mata , Morena",
+      "mobile": "+917987889349",
+      "Password": "fgdfg",
+      "latitude": "26.4889128",
+      "longitude": "77.9879728",
+      "time": "16:34:51",
+      "date": "2023-6-25",
+      "id": 2
+    },
+    {
+      "name": "Raunak Bandil",
+      "email": "Yes@gmail.com",
+      "Address": "Near Pipal Wali Mata , Morena",
+      "mobile": "+917987889349",
+      "Password": "1234",
+      "latitude": "26.4870496",
+      "longitude": "77.9852741",
+      "time": "17:39:48",
+      "date": "2023-6-25",
+      "id": 3
+    },
+    {
+      "name": "Raunak yes",
+      "email": "yes@gmail.com",
+      "Address": "Near Pipal Wali Mata , Morena",
+      "mobile": "+917987889349",
+      "Password": "1234",
+      "latitude": "26.4889128",
+      "longitude": "77.9879728",
+      "time": "17:43:29",
+      "date": "2023-6-25",
+      "id": 4
+    }
+  ]
+}

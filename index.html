@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body onload="getLocation()">
+    <div class="relative w-screen h-screen bg-black">
+        <img src="img/img1.png" alt="" class="relative w-full h-screen">
+        <div class="absolute top-0 w-screen h-screen opacity-50 bg-fuchsia-400"></div>
+    </div>
+
+    <div class="absolute p-6 bg-white rounded-md top-24 left-4 sm:left-40 w-96 ">
+
+        <form class="mb-3 myForm" required id="submit" style="display: block;">
+            <h1 class="text-center underline uppercase">User Sign-up</h1>
+            <div id="msg"></div>
+            <label>Name</label>
+            <input type="text" class="w-full p-2 mb-3 bg-transparent border rounded-md" id="name" name="name" value="">
+            <label>Email</label>
+            <input type="email" class="w-full p-2 mb-3 bg-transparent border rounded-md" id="email" name="email"
+                value="">
+            <label>Address</label>
+            <input type="text" class="w-full p-2 mb-3 bg-transparent border rounded-md" id="Address" name="Address"
+                value="">
+            <label>Mobile No.</label>
+            <input type="text" class="w-full p-2 mb-3 bg-transparent border rounded-md" id="mobile" name="mobile"
+                value="">
+            <label>Password</label>
+            <input type="password" class="w-full p-2 bg-transparent border rounded-md" id="Password" name="Password"
+                value="">
+
+            <div class="flex invisible">
+                <input type="text" class="invisible" id="latitude" name="latitude" value="">
+                <input type="text" class="invisible" id="longitude" name="longitude" value="">
+                <input type="text" class="invisible" id="time" name="time" value="">
+                <input type="text" class="invisible" id="date" name="date" value="">
+            </div>
+
+
+            <input type="submit" value="Submit" class="p-2 text-white bg-purple-400 rounded-sm ml-28 w-28">
+
+
+        </form>
+
+        <form class="myForm1" required id="Csubmit" style="display: none;">
+            <div id="msgg"></div>
+            <h1 class="text-center underline uppercase">User login</h1>
+            <label>Email</label>
+            <input type="email" class="w-full p-2 mb-3 bg-transparent border rounded-md" id="uemail" name="uemail"
+                value="">
+            <label>Password</label>
+            <input type="text" class="w-full p-2 mb-3 bg-transparent border rounded-md" id="uPassword" name="uPassword"
+                value="">
+            <input type="submit" value="login" class="p-2 text-white bg-purple-400 rounded-sm ml-28 w-28">
+
+
+        </form>
+
+        <div class="flex text-center flex-nowrap" id="Cbtn" style="display: block;">If you have already account?
+            <button class="text-blue-500 underline" onclick="loginform()"> User Login </button>
+        </div>
+        <button onclick="userform()" id="Ubtn" style="display: none;" class="text-blue-500 underline"> Sign-up </button>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
