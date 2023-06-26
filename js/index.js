@@ -1,5 +1,5 @@
-// let url = "http://localhost:3000/gisinfo"
-let url ="https://missraunak.github.io/GIS_PROJECT/db.json"
+let url = "db.json"
+// let url ="https://missraunak.github.io/GIS_PROJECT/db.json"
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition, showError);
