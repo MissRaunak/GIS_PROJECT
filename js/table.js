@@ -1,6 +1,6 @@
 
-let url = "http://localhost:3000/gisinfo"
-
+// let url = "http://localhost:3000/gisinfo"
+let url ="https://missraunak.github.io/GIS_PROJECT/db.json"
 function showdata() {
     let html = '';
     fetch(url)
