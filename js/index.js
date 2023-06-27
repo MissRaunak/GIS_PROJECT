@@ -67,7 +67,7 @@ formz.addEventListener("submit", async (event) => {
                     })
                 } else {
                     // Make a POST request to add the new user
-                    fetch(url, {
+                    fetch(`${url}`, {
                         method: 'POST',
                         body: JSON.stringify(mydata),
                         headers: {
